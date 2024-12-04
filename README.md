@@ -10,7 +10,7 @@
 <br>
 <p align="center">
 
-> <a href="">**Art-Free Generative Models: Art Creation Without Graphic Art Knowledge**</a>
+> <a href="https://joaanna.github.io/art-free-diffusion">**Art-Free Generative Models: Art Creation Without Graphic Art Knowledge**</a>
 >
 <a href="https://rhfeiyang.github.io/" target="_blank">Hui Ren*</a>,
 <a href="https://joaanna.github.io/" target="_blank">Joanna Materzynska*</a>,
