@@ -120,8 +120,13 @@ cd ..
 
 # Train artistic adapter
 
-## Model Zoo
 
+
+## Purpose and Ethical Use
+- Users should only provide content that they own or have rights to, including their own creative works or photographic art.
+- The tool is not designed to learn from or replicate the styles of external artists, guaranteeing that any generated models are based solely on real-world data or the user’s personal input.
+
+## Model Zoo
 Download the pre-trained 17 art adapters(Derain, Corot, Matisse, Klimt, Picasso, Andy, Richter, Hokusai, Monet, Van Gogh, ...) by:
 
 ``` shell
