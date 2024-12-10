@@ -373,7 +373,7 @@ def inference(network: LoRANetwork, tokenizer: CLIPTokenizer, text_encoder: CLIP
             with torch.no_grad():
                 image = vae.decode(latents).sample
             image = (image / 2 + 0.5).clamp(0, 1)
-            image = image.detach().cpu().permute(0, 2, 3, 1).numpy()
+            image = image.detach().cpu().permute(0, 2, 3, 1).to(torch.float32).numpy()
             images = (image * 255).round().astype("uint8")
 
 
