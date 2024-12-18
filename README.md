@@ -131,7 +131,7 @@ Download the pre-trained 17 art adapters(Derain, Corot, Matisse, Klimt, Picasso,
 
 ``` shell
 cd data
-python download.py art_adapters
+python download.py -d art_adapters
 cd ..
 ```
 
@@ -193,7 +193,7 @@ Optional arguments:
 First download the CSD model by:
 ``` shell
 cd data
-python download.py csd
+python download.py -d csd
 cd ..
 ```
 
