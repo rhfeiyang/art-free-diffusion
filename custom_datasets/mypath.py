@@ -22,6 +22,10 @@ class MyPath(object):
             "lhq_ids_sub500": "data/LHQ500_caption/idx/subsample_500.pickle",
             "lhq_images": "data/LHQ500_caption/subsample_500",
             "lhq_captions": "data/LHQ500_caption/captions",
+
+            "laion_pop500" : "data/laion_pop500/laion_pop500.csv",
+            "laion_pop500_first_sentence" : "data/laion_pop500/laion_pop500_first_sentence.csv",
+            "laion_images": "data/laion_pop500/laion_pop500_images",
         }
         ret = map.get(database, None)
         if ret is None:
