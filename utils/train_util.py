@@ -249,7 +249,8 @@ def get_noisy_image(
     image = img
     # im_orig = image
     device = vae.device
-    image = image_processor.preprocess(image).to(device)
+    weight_dtype = vae.dtype
+    image = image_processor.preprocess(image).to(device).to(weight_dtype)
 
     init_latents = vae.encode(image).latent_dist.sample(None)
     init_latents = vae.config.scaling_factor * init_latents
