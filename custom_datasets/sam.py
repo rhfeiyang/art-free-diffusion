@@ -15,7 +15,7 @@ from torchvision import transforms
 
 
 class SamDataset(Dataset):
-    def __init__(self, image_folder_path:str, caption_folder_path:str, id_file:str = "data/sam/clip_filtered_ids.pickle",id_dict_file:str =None , transforms: Optional[Callable] = None,
+    def __init__(self, image_folder_path:str, caption_folder_path:str, id_file:str = "data/Art-Free-SAM/ids_train.pickle",id_dict_file:str ="data/Art-Free-SAM/id_dict.pickle" , transforms: Optional[Callable] = None,
                  resolution=None,
                  get_img=True,
                  get_cap=True,):

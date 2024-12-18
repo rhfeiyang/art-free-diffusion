@@ -65,7 +65,7 @@ Then specify the dataset roots in `custom_datasets/mypath.py`(sam_images, sam_ca
 To Download our Art-Free SAM ids:
 ``` shell
 cd data
-python download.py filtered_sam
+python download.py -d Art-Free-SAM
 cd ..
 ```
 

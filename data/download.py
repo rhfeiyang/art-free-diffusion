@@ -1,6 +1,6 @@
 # Authors: Hui Ren (rhfeiyang.github.io)
 import argparse
-from huggingface_hub import hf_hub_download
+from huggingface_hub import hf_hub_download, snapshot_download
 import zipfile
 import os
 name_map = {
@@ -14,7 +14,12 @@ name_map = {
 
 def download_data(data_list, save_root="./"):
     for data in data_list:
-        if "csd" in data:
+        if data == "Art-Free-SAM":
+            repo_id = "rhfeiyang/Art-Free-SAM"
+            # download all the files
+            snapshot_download(repo_id=repo_id,repo_type="dataset", local_dir=os.path.join(save_root,"Art-Free-SAM"))
+
+        elif "csd" in data:
             repo_id = "tomg-group-umd/CSD-ViT-L"
             hf_hub_download(repo_id=repo_id,repo_type="model", filename="pytorch_model.bin", local_dir=os.path.join(save_root,"weights"))
             os.rename(os.path.join(save_root,"weights","pytorch_model.bin"), os.path.join(save_root,"weights","CSD-checkpoint.pth"))
