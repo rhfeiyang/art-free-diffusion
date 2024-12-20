@@ -1,5 +1,6 @@
 # Art-Free Generative Models: Art Creation Without Graphic Art Knowledge
 <a href="https://joaanna.github.io/art-free-diffusion"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
+<a href="https://huggingface.co/spaces/rhfeiyang/Art-Free-Diffusion"><img src="https://img.shields.io/badge/Demo-HuggingFace-yellow"></a>
 <a href="https://arxiv.org/abs/2412.00176"><img src="https://img.shields.io/badge/arXiv-2412.00176-b31b1b.svg"></a>
 <a href="https://huggingface.co/rhfeiyang/art-free-diffusion-v1"><img src="https://img.shields.io/badge/Art--Free-Diffusion_v1-purple"></a>
 <a href="https://huggingface.co/datasets/rhfeiyang/Art-Free-SAM"><img src="https://img.shields.io/badge/Art--Free-SAM-green"></a>
@@ -24,6 +25,8 @@
 > We explore the question: ``How much prior art knowledge is needed to create art?". To find out, we designed a text-to-image generation model that skips training on art-related content entirely. Then, we developed a straightforward method to create an "art adapter," which learns artistic styles using just a handful of examples. Our experiments reveal that the art generated this way is rated by users as on par with pieces from models trained on massive, art-heavy datasets. Finally, through data attribution techniques, we illustrate how examples from both artistic and non-artistic datasets contributed to the creation of new artistic styles.
 </p>
 
+# Huggingface Demo [![Open In Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/rhfeiyang/Art-Free-Diffusion)
+![HF demo](demo_img/hf_demo.png)
 
 # Colab Demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rhfeiyang/art-free-diffusion/blob/master/demo.ipynb)
 
