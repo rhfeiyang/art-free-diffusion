@@ -1,9 +1,9 @@
 # Art-Free Generative Models: Art Creation Without Graphic Art Knowledge
 <a href="https://joaanna.github.io/art-free-diffusion"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
 <a href="https://arxiv.org/abs/2412.00176"><img src="https://img.shields.io/badge/arXiv-2412.00176-b31b1b.svg"></a>
-<a href="https://huggingface.co/rhfeiyang/art-free-diffusion-v1"><img src="https://img.shields.io/badge/Art_Free-Diffusion_v1-purple"></a>
-<a href="https://huggingface.co/datasets/rhfeiyang/Art-Free-SAM"><img src="https://img.shields.io/badge/Art_Free-SAM-green"></a>
-<a href="https://www.apache.org/licenses/LICENSE-2.0.txt"><img src="https://img.shields.io/badge/License-Apache-yellow"></a>
+<a href="https://huggingface.co/rhfeiyang/art-free-diffusion-v1"><img src="https://img.shields.io/badge/Art--Free-Diffusion_v1-purple"></a>
+<a href="https://huggingface.co/datasets/rhfeiyang/Art-Free-SAM"><img src="https://img.shields.io/badge/Art--Free-SAM-green"></a>
+<a href="https://github.com/rhfeiyang/art-free-diffusion/blob/main/LICENSE.txt"><img src="https://img.shields.io/badge/License-Apache--2.0-yellow"></a>
 
 ![teaser](docs/Teaser.jpg)
 
